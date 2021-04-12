@@ -1,11 +1,12 @@
 import './style.css'
-import MainHome from '../../components/MainHome'
+import HomeCarrossel from '../../components/HomeCarrossel'
+import HomeCards from '../../components/HomeCards'
 
 const Home = () =>{
     return(
         <>
-        <h1>Hello World</h1>
-        <MainHome/>
+        <HomeCarrossel/>
+        <HomeCards />
         </>
     )
 

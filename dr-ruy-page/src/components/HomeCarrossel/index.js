@@ -4,7 +4,7 @@ import livros from '../../assets/livrosDrRuy.png'
 import meiosDeContato from '../../assets/meiosDeContato.jpg'
 
 
-const MainHome = () => {
+const HomeCarrossel = () => {
     return (
         <>
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -24,7 +24,7 @@ const MainHome = () => {
     <div class="carousel-item">
       <img src= {livros} class="d-block w-100" alt="livros Dr Ruy"></img>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Conheça meus livros.</h5>
+        <h5><a href="/livros">Conheça meus livros.</a></h5>
         <p>Medicina e saúde da coluna em forma de livro!</p>
       </div>
     </div>
@@ -49,4 +49,4 @@ const MainHome = () => {
     )
 }
 
-export default MainHome; 
+export default HomeCarrossel; 

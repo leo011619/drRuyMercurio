@@ -1,0 +1,29 @@
+.card{
+    margin-top: 50px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0px;
+}
+
+.card-body{
+    background-color:lightslategray;
+}
+
+.row{
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+
+h5,
+p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 498px){
+    
+    .card-body{
+        padding: 10px;
+    }
+    p.card-title{
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,38 @@
+.container_livros_livro_l1,
+.container_livros_livro_l2,
+.container_livros_livro_l3,
+.container_livros_livro_l4
+{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    padding: 20px;
+    
+}
+
+.livroSemBorda {
+    border: solid black 1px;
+}
+
+.container_livros_livro_l1_descricao,
+.container_livros_livro_l2_descricao,
+.container_livros_livro_l3_descricao,
+.container_livros_livro_l4_descricao{
+    margin: 20px
+}
+
+@media only screen and (max-width: 498px){
+
+    .container_livros_livro_l1,
+    .container_livros_livro_l2,
+    .container_livros_livro_l3,
+    .container_livros_livro_l4
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
