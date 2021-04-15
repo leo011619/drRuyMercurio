@@ -31,7 +31,7 @@ const HomeCarrossel = () => {
     <div class="carousel-item">
       <img src={meiosDeContato} class="d-block w-100" alt="Entre em contato conosoco"></img>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Entre em contato com a gente agora mesmo!</h5>
+        <h5> <a href="/contato">Entre em contato com a gente agora mesmo!</a> </h5>
         <p>E marque sua consulta!</p>
       </div>
     </div>
