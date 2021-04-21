@@ -18,7 +18,10 @@ const Footer = () => {
           O conteúdo deste website tem como objetivo oferecer, em linguagem acessível, orientações aos pacientes sobre coluna vertebral, suas patologias e tratamentos. As informações disponibilizadas não substituem a consulta médica.
         </div>
         <div className="bloco3">
-        <p>Endereço do consultório</p>
+        <p>Endereço do consultório:</p>
+        <a href="https://www.google.com.br/maps/place/Av.+Giovanni+Gronchi,+1470+-+Morumbi,+S%C3%A3o+Paulo+-+SP,+05651-001/@-23.5964654,-46.721314,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce56e801fc00b1:0xeea1c485203dd353!8m2!3d-23.5964703!4d-46.7191253">
+        Av. Giovanni Gronchi, 1470 - Morumbi - SP </a>
+
 
         </div>
       </div>

@@ -4,8 +4,8 @@ import './style.css'
 
 const MainCiru = () => {
     return (
-        <>
-        <p>CIRURGIAS CONVENCIONAIS</p>
+        <> 
+        <b><p>CIRURGIAS CONVENCIONAIS</p></b>
            <div class="intro">
            Diferente das cirurgias minimamente invasivas, as cirurgias mais convencionais são mais rústicas e invasivas pórem não deixam de ser impotantíssimas no tratamento dos pacientes. Para conhecer cada uma delas clique nos links correspondentes abaixo:
            </div> 

@@ -4,7 +4,7 @@ import './style.css'
 const MainCiruMin = () => {
     return (
         <>
-            <p>CIRURGIAS MINIMAMENTE INVASIVAS</p>
+            <b><p>CIRURGIAS MINIMAMENTE INVASIVAS</p></b>
                <div class="intro">
                Em relação às cirurgias de coluna convencionais, os procedimentos minimamente invasivos apresentam como principal vantagem a possibilidade de realizar incisões menores, que agridem menos tecidos e músculos, e permitem recuperação mais rápida. Para conhecer cada uma delas clique nos links correspondentes abaixo:
                </div> 

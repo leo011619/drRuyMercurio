@@ -13,6 +13,12 @@
     margin-left: 0px!important;
 }
 
+.card-row{
+    padding-left: 100px ;
+    padding-right: 100px;
+}
+
+
 h5,
 p{
     text-align: center;

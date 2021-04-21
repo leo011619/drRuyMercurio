@@ -1,3 +1,9 @@
+
+.container_livros{
+     padding-left: 100px ;
+    padding-right: 100px;
+}
+
 .container_livros_livro_l1,
 .container_livros_livro_l2,
 .container_livros_livro_l3,
