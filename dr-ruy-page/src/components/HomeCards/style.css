@@ -1,39 +1,41 @@
-.card{
-    margin-top: 50px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    margin-bottom: 0px;
+.card {
+  margin-top: 50px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0px;
 }
 
-.card-body{
-    background-color:lightslategray;
+.card-body {
+  background-color: lightslategray;
 }
 
-.row{
-    margin-right: 0px!important;
-    margin-left: 0px!important;
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
 }
 
-.card-row{
-    padding-left: 100px ;
-    padding-right: 100px;
+.card-row {
+  padding-left: 100px;
+  padding-right: 100px;
 }
-
 
 h5,
-p{
-    text-align: center;
+p {
+  text-align: center;
 }
 
-p.card-title{
-    margin-top: 5px;
+p.card-title {
+  margin-top: 5px;
 }
 
-@media only screen and (max-width: 498px){
-    
-    .card-body{
-        padding: 10px;
-    }
-    p.card-title{
-        margin-top: 5px;
-    }
+@media only screen and (max-width: 498px) {
+  .card-body {
+    padding: 10px;
+  }
+  p.card-title {
+    margin-top: 0px;
+  }
+  .card-row {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }

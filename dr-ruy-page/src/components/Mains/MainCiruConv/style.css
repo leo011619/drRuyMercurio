@@ -1,0 +1,43 @@
+.lista {
+  display: flex;
+  flex-direction: row;
+  background-color: #343a40;
+  margin: 30px 0px;
+}
+
+.coluna1,
+.coluna2 {
+  padding: 10px 150px;
+  width: 100vh;
+}
+
+.intro {
+  padding: 0px 10vh;
+  text-align: justify;
+}
+
+.conduta {
+  padding: 0px 10vh;
+}
+
+.container_conduta_consulta,
+.container_conduta_fisio,
+.container_conduta_aulasGym,
+.container_conduta_tecdesenvolvidas,
+.container_conduta_outrosProcedimentos,
+.container_conduta_coluna {
+  padding-bottom: 2vh;
+}
+
+.imagens {
+  padding: 2vh;
+  text-align: center;
+}
+
+.imagem1,
+.imagem2 {
+  margin-left: 10vh;
+  margin-bottom: 2vh;
+  width: 250px !important;
+  height: 200px !important;
+}
