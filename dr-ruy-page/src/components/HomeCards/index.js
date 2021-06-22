@@ -17,8 +17,8 @@ const HomeCards = () => {
               ></img>
               <div class="card-body">
                 <p class="card-title">
-                  <a href="/cirurgias">
-                    <b>Conheça os principais procedimentos!</b>
+                  <a href="/condutas">
+                    <b>Conheça as principais condutas de tratamento!</b>
                   </a>
                 </p>
               </div>

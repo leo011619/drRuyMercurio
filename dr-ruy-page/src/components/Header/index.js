@@ -32,7 +32,7 @@ const Header = () => {
             </a>
           </li>
           <li className="nav-item active">
-            <a className="nav-link" href="/cirurgiasConv">
+            <a className="nav-link" href="/condutas">
               Condutas Terapêuticas
             </a>
           </li>

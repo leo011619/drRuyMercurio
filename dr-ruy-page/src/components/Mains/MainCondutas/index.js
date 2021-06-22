@@ -9,7 +9,7 @@ import pilates from "../../../assets/pilates.jpg";
 import rolfing from "../../../assets/rolfing.jpg";
 import rpg from "../../../assets/rpg.jpg";
 
-const MainCiru = () => {
+const MainCondutas = () => {
   return (
     <>
       <b>
@@ -24,7 +24,7 @@ const MainCiru = () => {
         <div class="coluna1">
           <ul>
             <li>
-              <a href="consulta">Consulta</a>
+              <a href="#consulta"> Consulta </a>
             </li>
             <li>
               <a href="#fisio">Fisioterapia</a>
@@ -193,7 +193,7 @@ const MainCiru = () => {
 
         <h4>
           {" "}
-          <a name="colunA"></a> <b>Coluna vertebral</b>
+          <a name="coluna"></a> <b>Coluna vertebral</b>
         </h4>
 
         <div class="container_conduta_coluna">
@@ -239,4 +239,4 @@ const MainCiru = () => {
   );
 };
 
-export default MainCiru;
+export default MainCondutas;
