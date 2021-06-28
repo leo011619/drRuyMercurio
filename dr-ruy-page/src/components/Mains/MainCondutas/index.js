@@ -17,8 +17,8 @@ const MainCondutas = () => {
       </b>
       <div class="intro">
         As condutas terapêuticas são os meios de tratamento que podemos usar com
-        os pacientes, elas variade acordo com o caso de cada paciente e seu
-        histórico, podendo variar particularmente de um para o outro.
+        os pacientes, elas se destacam de acordo com o caso de cada paciente e
+        seu histórico, podendo variar particularmente de um para o outro.
       </div>
       <div class="lista">
         <div class="coluna1">
@@ -127,24 +127,25 @@ const MainCondutas = () => {
         </h4>
 
         <div class="container_conduta_tecdesenvolvidas">
-          Algumas técnicas foram desenvolvidas a fim de auxiliar no tratamento
-          dos pacientes:
+          Algumas técnicas são utilizadas a fim de auxiliar no tratamento dos
+          pacientes:
           <ul>
             <li>
-              <b> Redução Postural Global (RPG)</b>, que consiste em exercícios
-              e posturas usadas dentro da fisioterapia para combater alterações
-              da coluna como escoliose, corcunda e hiperlordose, além de outros
-              problemas de saúde como dor de cabeça, nos joelhos, quadril, e até
-              mesmo alterações como o pé chato, por exemplo.
+              <b> Reeducação Postural Global (RPG)</b>, que consiste em
+              exercícios e posturas usadas dentro da fisioterapia para combater
+              alterações da coluna como escoliose, dorso curvo (corcunda) e
+              hiperlordose, além de outros problemas de saúde como dor de
+              cabeça, nos quadris e nos joelhos.
               <div class="imagens">
                 <img className="imagem1" src={rpg} alt="imagem de rpg"></img>
               </div>
             </li>
             <li>
               <b> Pilates</b>, um tipo de atividade física que busca o controle
-              do músculos do corpo, fortalecendo a musculatura e melhorando seu
-              tônus, além de conferir maior flexibilidade ao corpo. Hoje, alguns
-              médicos a consideram uma forma de terapia, por ser um exercício
+              dos músculos do corpo, fortalecendo a musculatura e melhorando seu
+              tônus, além de conferir maior flexibilidade ao corpo. Com ênfase
+              no fortalecimento dos músculos abdominais. Hoje, alguns médicos a
+              consideram uma forma de terapia, por ser um exercício
               individualizado.
               <div class="imagens">
                 <img
@@ -161,8 +162,8 @@ const MainCondutas = () => {
               eficiente dos músculos com menos energia despendida, levantando a
               cabeça e no peito e alongamento do tronco do corpo. Quando a
               terapia Rolfing é bem sucedida, o corpo é gravitacionalmente
-              reequilibrada e capaz de funcionar de forma mais suave e mais
-              eficiência.
+              reequilibrado e capaz de funcionar de forma mais suave e mais
+              eficiente.
               <div class="imagens">
                 <img
                   className="imagem1"
@@ -172,10 +173,9 @@ const MainCondutas = () => {
               </div>
             </li>
             <li>
-              <b> Rumer </b>, Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Reiciendis ipsam vero facere dicta beatae
-              aliquam saepe neque dignissimos natus? Sapiente culpa et assumenda
-              veniam ex mollitia eius totam quibusdam sint.
+              <b> Rumer</b>, é uma técnica de busca da melhor simetria, do
+              melhor alongamento e do melhor alinhamento do tronco. É a
+              bioengenharia do sistema musculoesquelético.
             </li>
           </ul>
         </div>
@@ -212,7 +212,7 @@ const MainCondutas = () => {
             </li>
             <li>
               {" "}
-              <b> Quadril </b>{" "}
+              <b> Quadris </b>{" "}
             </li>
             <li>
               {" "}
@@ -220,7 +220,7 @@ const MainCondutas = () => {
             </li>
             <li>
               {" "}
-              <b> Tornoelos e pé </b>{" "}
+              <b> Tornozelos e pés </b>{" "}
             </li>
           </ul>
         </div>
@@ -232,7 +232,7 @@ const MainCondutas = () => {
         Os tratamentos visam sempre a restauração das funções do sistema músculo
         esquelético, com foco principal nas dores e na incapacidade física. Em
         nossa clínica a preferencia é sempre pelo tratamento conservador{" "}
-        <b>(Não o cirúrgico)</b>. Os tratamentos cirúrgico somente serão
+        <b>(Não o cirúrgico)</b>. Os tratamentos cirúrgicos somente serão
         indicados quando estritamente necessários.
       </div>
     </>

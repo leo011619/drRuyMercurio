@@ -41,3 +41,29 @@
   width: 250px !important;
   height: 200px !important;
 }
+
+@media only screen and (max-width: 498px) {
+  .intro {
+    padding: 0px 5vh;
+    text-align: justify;
+  }
+
+  .lista {
+    flex-direction: column;
+  }
+  .coluna1,
+  .coluna2 {
+    width: 40vh;
+    padding: 10px 10px;
+    padding-left: 20px;
+  }
+  .conduta {
+    padding: 0px 5vh;
+  }
+
+  .imagem1,
+  .imagem2 {
+    flex-direction: column;
+    margin-left: 0vh;
+  }
+}

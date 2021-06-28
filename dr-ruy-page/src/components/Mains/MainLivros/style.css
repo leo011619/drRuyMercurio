@@ -40,5 +40,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: smaller;
+  }
+
+  .container_livros_livro_l1_descricao,
+  .container_livros_livro_l2_descricao,
+  .container_livros_livro_l3_descricao,
+  .container_livros_livro_l4_descricao {
+    width: 35vh;
+    text-align: justify;
+  }
+  .container_livros {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

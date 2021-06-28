@@ -1,13 +1,17 @@
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.7);
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-a{
-    color: white;
-    text-decoration: none;
-    
+a {
+  color: white;
+  text-decoration: none;
 }
 
-img{
-    height: 450px!important;
+img {
+  height: 450px !important;
+}
+@media only screen and (max-width: 498px) {
+  .carousel {
+    display: none;
+  }
 }

@@ -33,6 +33,27 @@ const Footer = () => {
             Av. Giovanni Gronchi, 1470 - Morumbi - SP{" "}
           </a>
           <b> Próximo ao estádio do Morumbi! </b>
+          <p>Entre em contato agora mesmo:</p>
+          <div className="celfooter">
+            <b>Telefones: </b>{" "}
+            <a
+              href="tel:+5511954563537"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Ligar para marcar consulta?"
+            >
+              (11)97082-8015{" "}
+            </a>{" "}
+            ou{" "}
+            <a
+              href="tel:+5511954563537"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Ligar para marcar consulta?"
+            >
+              (11)3661-4243{" "}
+            </a>{" "}
+          </div>
         </div>
       </div>
     </>
